@@ -1,0 +1,14 @@
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+  <a mat-menu-item routerLink="/books">List</a>
+  <a mat-menu-item routerLink="/book/add">Form</a>
+</mat-menu>
+
+<h1>My book shop</h1>
+
+<!-- <app-book-list></app-book-list> -->
+
+<!-- (addBookEvent) défini un OutPut -->
+<!-- <app-book-form (addBookEvent)="addBook($event)"></app-book-form> --> 
+
+<router-outlet></router-outlet>
