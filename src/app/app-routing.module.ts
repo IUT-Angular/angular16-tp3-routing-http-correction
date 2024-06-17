@@ -21,7 +21,7 @@ export const appRouteList: Routes = [
     {
         path: 'book/:id',
         component: BookDetailComponent
-      }
+    }
 ];
 
 @NgModule({

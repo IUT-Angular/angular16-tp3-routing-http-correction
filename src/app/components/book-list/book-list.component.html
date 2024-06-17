@@ -5,6 +5,7 @@
     <ul>
         <li *ngFor="let book of books">
             {{ book.title }} by {{ book.author }} ({{ book.publicationDate | date:'EEEE dd MMMM yyyy' }})
+            <a routerLink="/book/{{ book.id }}">Read more</a>
         </li>
     </ul>
 

@@ -36,7 +36,7 @@ export class BookService {
             book.id = Math.max(...this.books.map(b => b.id)) + 1;
         }
 
-        const existedBook = this.books.find(b => b.title === book.title);
+        const existedBook = this.books.find(b => b.title === book.title || b.id === Number(book.id));
         if(existedBook)
             return;
 
