@@ -7,7 +7,7 @@ import { BookListComponent } from './components/book-list/book-list.component';
 export const appRouteList: Routes = [
     {
         path: '',
-        redirectTo: '/books',
+        redirectTo: '/books', //permet la reedirection vers la page /books
         pathMatch: 'full'
     },
     {

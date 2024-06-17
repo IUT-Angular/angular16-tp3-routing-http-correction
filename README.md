@@ -16,7 +16,7 @@
 
 1. Récupération d'un Book een cherchant par ID via la la méthod `Array.find`
 2. La récupération de l'ID dans l'URL se fait via `this.activatedRoute.snapshot.params['id'];`
-3. 
+3. Le routing est à détailler dans le fichier `app-routing.module.ts`
 4. En angular < 16, le provider `HttpClientModule` doit être inclus dans la section `imports` du fichier `app.module.ts`
 5. Utilisation de la méthode `HttpClient.post<Book>(this.bookApiUrl, book)`
 
