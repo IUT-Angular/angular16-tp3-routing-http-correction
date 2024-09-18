@@ -1,5 +1,7 @@
 # TP3
 
+**ATTENTION la correction a été faite en Angular 16, il y a donc les fichiers `app.module.ts` et `app-routing.module.ts`**
+
 ## Sujet
 
 1. Transformer la méthode `addBook(book: Book): void` du `BookService` pour gérer les doublons
